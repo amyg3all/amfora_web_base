@@ -1,0 +1,43 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #83a07f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid var(--brand-900);
+  }
+  
+  .text {
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 100;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .button {
+    color: var(--brand-900);
+    font-size: 1rem;
+    background-color: var(--grey-100);
+    border: 2px solid var(--brand-900);
+    border-radius: 15px;
+    margin: 0.15rem 1rem;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    display: inline-block;
+  
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+  }

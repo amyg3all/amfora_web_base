@@ -1,0 +1,17 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #83a07f;
+    color: #ffffff;
+}
+
+.article {
+    background-color: #3d4f40;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}

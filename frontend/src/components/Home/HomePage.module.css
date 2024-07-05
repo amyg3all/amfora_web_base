@@ -1,0 +1,65 @@
+.body {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #83a07f;
+    color: #ffffff;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+
+}
+
+.article {
+    transform: translateY(20px);
+    background-color: #83a07f;
+}
+
+.main {
+    padding: 0;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    color: #ffffff;
+    font-size: 8vw;
+    font-weight: 750;
+    letter-spacing: 1.1rem;
+    margin-bottom: 0%;
+    transform: translate(30px, 60px);
+}
+
+.subtitle {
+    position: relative;
+    color: #ffffff;
+    font-weight: 0.1;
+    font-size: 1.5vw;
+    letter-spacing: 0.51rem;
+    transform: translate(35px, 25px);
+}
+
+.mainText {
+    position: relative;
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.8rem;
+    transform: translate(70px,5px);
+}
+
+.underMain {
+    position: relative;
+    color: #ffffff;
+    font-weight: 0.1;
+    font-size: 1.7vw;
+    letter-spacing: 0.49rem;
+    transform: translate(700px,-55px);
+}
+
+.button {
+    color: #ffffff;
+}
+
